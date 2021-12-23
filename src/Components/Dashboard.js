@@ -1,6 +1,8 @@
 import React from "react";
 import StyleSheet from "../Css/Header.module.css";
 import { Link, Routes } from "react-router-dom";
+// import Routes  from "./Routers";
+import Routers from "./Routers";
 
 function Dashboard() {
   return (
@@ -13,7 +15,7 @@ function Dashboard() {
         />
         <h1 className={StyleSheet.text}>NPI LAUNCHPAD SCORECARD</h1>
       </div>
-      <div className="sidenav col-lg-6">
+      <div className="sidenav col-lg-6 d-flex">
         <div className={StyleSheet.navbar}>
           <ul className="nav flex-column">
             <div className="d-flex">
@@ -63,8 +65,8 @@ function Dashboard() {
             </div>
           </ul>
         </div>
-        <Routes/>
       </div>
+      <Routers/>
     </div>
   );
 }
