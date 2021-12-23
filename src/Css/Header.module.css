@@ -1,0 +1,21 @@
+.image{
+    width: 300px;
+    height: 100px;
+}
+.text{
+    margin-left: 250px;
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+.navbar {
+    /* list-style-type: none; */
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
+
